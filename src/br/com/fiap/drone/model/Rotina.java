@@ -12,8 +12,8 @@ public class Rotina {
 	private long id;
 	private String dataT; //Data na Terra (dd/mm/yyyy)
 	private int diasM; //Sóis decorridos desde que o drone coletou dados em Marte.
-	private double longSolar; //Logitude solar (ângulo Marte-Sol) medidos a partir do hemisfério sul
 	private int mesM; //Mes em Marte (Mesma forma que na Terra)
+	private double longSolar; //Logitude solar (ângulo Marte-Sol) medidos a partir do hemisfério sul
 	private double minTempM; //Temperatura (ºC) min. em Marte
 	private double maxTempM; //Temperatura (ºC) min. em Marte
 	private double pressao; //Pressão Atm. (Pa) da localização do drone em Marte
