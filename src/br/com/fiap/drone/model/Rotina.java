@@ -11,12 +11,12 @@ public class Rotina {
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	private String dataT; //Data na Terra (dd/mm/yyyy)
-	private int diasM; //Sóis decorridos desde que o drone coletou dados em Marte.
-	private double longSolar; //Logitude solar (ângulo Marte-Sol) medidos a partir do hemisfério sul
-	private int mesM; //Mes em Marte (Mesma forma que na Terra)
-	private double minTempM; //Temperatura (ºC) min. em Marte
-	private double maxTempM; //Temperatura (ºC) min. em Marte
-	private double pressao; //Pressão Atm. (Pa) da localização do drone em Marte
+	private String diasM; //Sóis decorridos desde que o drone coletou dados em Marte.
+	private String mesM; //Mes em Marte (Mesma forma que na Terra)
+	private String longSolar; //Logitude solar (ângulo Marte-Sol) medidos a partir do hemisfério sul
+	private String minTempM; //Temperatura (ºC) min. em Marte
+	private String maxTempM; //Temperatura (ºC) min. em Marte
+	private String pressao; //Pressão Atm. (Pa) da localização do drone em Marte
 	
 	public long getId() {
 		return id;
@@ -30,40 +30,40 @@ public class Rotina {
 	public void setDataT(String dataT) {
 		this.dataT = dataT;
 	}
-	public int getDiasM() {
+	public String getDiasM() {
 		return diasM;
 	}
-	public void setDiasM(int diasM) {
+	public void setDiasM(String diasM) {
 		this.diasM = diasM;
 	}
-	public double getLongSolar() {
+	public String getLongSolar() {
 		return longSolar;
 	}
-	public void setLongSolar(double longSolar) {
+	public void setLongSolar(String longSolar) {
 		this.longSolar = longSolar;
 	}
-	public int getMesM() {
+	public String getMesM() {
 		return mesM;
 	}
-	public void setMesM(int mesM) {
+	public void setMesM(String mesM) {
 		this.mesM = mesM;
 	}
-	public double getMinTempM() {
+	public String getMinTempM() {
 		return minTempM;
 	}
-	public void setMinTempM(double minTempM) {
+	public void setMinTempM(String minTempM) {
 		this.minTempM = minTempM;
 	}
-	public double getMaxTempM() {
+	public String getMaxTempM() {
 		return maxTempM;
 	}
-	public void setMaxTempM(double maxTempM) {
+	public void setMaxTempM(String maxTempM) {
 		this.maxTempM = maxTempM;
 	}
-	public double getPressao() {
+	public String getPressao() {
 		return pressao;
 	}
-	public void setPressao(double pressao) {
+	public void setPressao(String pressao) {
 		this.pressao = pressao;
 	}
 	
