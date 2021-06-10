@@ -11,12 +11,27 @@ public class Rotina {
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	private String dataT; //Data na Terra (dd/mm/yyyy)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 2b6207b9e4acee98e51cf6e8d3bff1b29861b7ed
 	private String diasM; //Sóis decorridos desde que o drone coletou dados em Marte.
 	private String mesM; //Mes em Marte (Mesma forma que na Terra)
 	private String longSolar; //Logitude solar (ângulo Marte-Sol) medidos a partir do hemisfério sul
 	private String minTempM; //Temperatura (ºC) min. em Marte
 	private String maxTempM; //Temperatura (ºC) min. em Marte
 	private String pressao; //Pressão Atm. (Pa) da localização do drone em Marte
+<<<<<<< HEAD
+=======
+=======
+	private int diasM; //Sóis decorridos desde que o drone coletou dados em Marte.
+	private int mesM; //Mes em Marte (Mesma forma que na Terra)
+	private double longSolar; //Logitude solar (ângulo Marte-Sol) medidos a partir do hemisfério sul
+	private double minTempM; //Temperatura (ºC) min. em Marte
+	private double maxTempM; //Temperatura (ºC) min. em Marte
+	private double pressao; //Pressão Atm. (Pa) da localização do drone em Marte
+>>>>>>> 76d71bc28b23884746d494c7927121b09b4d5612
+>>>>>>> 2b6207b9e4acee98e51cf6e8d3bff1b29861b7ed
 	
 	public long getId() {
 		return id;
